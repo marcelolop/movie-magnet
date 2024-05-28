@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/index.css">
+    <link rel="stylesheet" href="./assets/styles/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script type ="module" src="./assets/scripts/index.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <main class="main-container">
+        <div class="container">
+            <h1 class="page-title">MOVIE <strong class="page-title-strong">MAGNET</strong></h1>
+            <p class="page-subtext"> Welcome to Movie Magnet!</p>
+        </div>
+        <div class="container search-container">
+                <input type="search" class="search-bar suggestions-list" placeholder="Search for movies or tv shows">
+                <div class="suggestions-container hidden">
+                    <ul class="suggestions-list"></ul>
+                  </div>
+                <button type="button" class="search-btn">Find Movie</button>
+        </div>
+        <div class ="container results-container hidden">
+            <div class="movie-poster">
+                <img src="" alt="" class="movie-poster-img">
+            </div>
+            <div class="movie-details">
+                <div class="movie-title-container">
+                    <h3 class="movie-title"></h3>
+                    <div class="movie-star-year-duration">
+                        <i class="fa-solid fa-star"></i>
+                        <p class="movie-rating"></p>
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <p class="movie-year"></p>
+                        <i class="fa-solid fa-clock"></i>
+                        <p class="movie-duration"></p>
+                    </div>
+                </div>
+                <div class="movie-description-container">
+                    <h4 class="movie-description-title">Description</h4>
+                    <p class="movie-description"></p>
+                    <div class="movie-genres">
+                        <p class="genre"></p>
+                    </div>
+                </div>
+                <div class="movie-cast-director-container">
+                    <div class="movie-director-container">
+                        <h4 class="movie-director-title">Director</h4>
+                        <p class="movie-director"></p>
+                    </div>
+                    <div class="movie-cast-container">
+                        <h4 class="movie-cast-title">Cast</h4>
+                        <p class="movie-cast"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
