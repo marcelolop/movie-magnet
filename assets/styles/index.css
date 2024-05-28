@@ -290,6 +290,7 @@ body, html {
 
    .genre:hover, .genre:active {
         transition: all 0.5s ease-in-out;
+        cursor: pointer;
     }
 
     .genre:hover {
