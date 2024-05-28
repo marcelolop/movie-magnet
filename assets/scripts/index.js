@@ -71,14 +71,13 @@ let searchResults = [];
 function searchMovies() {
   const query = searchInput.value.toLowerCase();
   
-  // If the query is too short or if the query does not match any movie, do nothing
-  if (query.length < 3 || !movies.some(movie => movie.title.toLowerCase() === query)) {
-    searchResults = [];
-    displayMovie();
+  // If the query is empty, do nothing
+  if (query === '') {
     return;
   }
   
-  if (query === '') {
+  // If the query is too short or if the query does not match any movie, do nothing
+  if (query.length < 3 || !movies.some(movie => movie.title.toLowerCase() === query)) {
     searchResults = [];
     displayMovie();
     return;
