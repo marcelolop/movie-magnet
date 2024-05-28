@@ -273,6 +273,9 @@ const movies = [
     description: 'An adaptation of the 1957 musical, West Side Story explores forbidden love and the rivalry between the Jets and the Sharks, two teenage street gangs of different ethnic backgrounds.',
     genre: ['Musical', 'Drama'],
     poster: 'https://raw.githubusercontent.com/mrspecht/media/main/img/west-side-story.jpg',
+    director: 'Robert Wise',
+    cast: ['Robert De Niro', 'Diane Keaton', 'Dylan O\'Brien'],
+    rating: 8.1,
     },
     {
     id: 1024,
